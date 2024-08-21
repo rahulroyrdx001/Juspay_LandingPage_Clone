@@ -1,0 +1,21 @@
+.mynav{
+    width: Fixed (1392px)px;
+    height: 80px;
+    top: 24px;
+    left: 24px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 61px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #211F1F;
+    justify: space-between;
+    opacity: 0px;
+    background-color: #121316;
+
+}
+.logo{
+    color :#FFFFFF;
+    width: 175px;
+    height: 56px;
+    gap: 7.72px;
+}
