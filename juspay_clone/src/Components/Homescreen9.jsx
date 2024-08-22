@@ -20,7 +20,17 @@ export default function Homescreen9() {
             <div className={style.galrybox1}>
               <img src="https://juspay.io/global/testimonials/travel-1.svg"></img>
             </div>
-            <div className={style.galrybox1}></div>
+            <div id={style.indigobox} className={style.galrybox1}>
+              <img src="https://juspay.io/global/testimonials/indigo.svg"></img>
+              <p>
+                Juspay's expertise in the payments ecosystem<br></br> and
+                cutting-edge technology will help us to<br></br> provide a
+                seamless and hassle-free payment<br></br> experience for our
+                customers.
+              </p>
+              <h4>Mr. Neetan Chopra</h4>
+              <p>CIO, IndiGo</p>
+            </div>
             <div className={style.galrybox1}>
               <img src="https://juspay.io/global/testimonials/travel-3.svg"></img>
             </div>
