@@ -29,15 +29,16 @@ export default function Navbar() {
         <p>JUSPAY</p>
       </div>
       <div className={style.menu}>
-        <div>About Us</div>
-        <div>Docs</div>
-        <div>Integrations</div>
+        <div id={style.idd1}>About Us</div>
+        <div id={style.idd2}>Docs</div>
+        <div id={style.idd3}>Integrations</div>
         <div
           style={{
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
+            color: "#188EDD",
           }}
         >
           Contact Us <MdArrowRight />

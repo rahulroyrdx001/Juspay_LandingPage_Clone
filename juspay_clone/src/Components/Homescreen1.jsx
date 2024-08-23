@@ -4263,9 +4263,9 @@ export default function Homescreen1() {
             }}
           >
             <h1>Payments designed for</h1>
-            <h1>
+            <h2>
               <span>GLOBAL OUTCOMES</span>
-            </h1>
+            </h2>
           </div>
           <div>
             <p>
