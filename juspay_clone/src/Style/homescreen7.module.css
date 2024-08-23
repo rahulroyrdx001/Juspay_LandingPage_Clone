@@ -7,10 +7,10 @@
 }
 .home7 img{
     position: absolute;
-    width: 120%;
+    width: 100%;
     height: 120%;
     object-fit: cover;
-    transform: translate(-5%,0);
+    transform: translate(-6.5%,0);
     z-index: -1;
 }
 .home7box{

@@ -6,13 +6,12 @@ export default function Homescreen8() {
     <div className={style.home8}>
       <div className={style.home8box}>
         <div className={style.alltext}>
+          <h2>End-to-End Payments</h2>
           <h2>
-            End-to-End Payments<br></br> Infrastructure
+            <span>Infrastructure</span>
           </h2>
-          <p>
-            Everything that you need to build a payments<br></br> stack to fuel
-            your business growth
-          </p>
+          <p>Everything that you need to build a payments</p>{" "}
+          <p>stack to fuel your business growth</p>
         </div>
         <div className={style.menu}>
           <div className={style.box}>Intelligent Routing</div>
@@ -31,7 +30,7 @@ export default function Homescreen8() {
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/1.webm" />
             </video>
-            <p>300+ PSP Integrations globally</p>
+            <p>100+ PSP <br></br>Integrations globally</p>
           </div>
           <div className={style.card}>
             <video
@@ -43,7 +42,7 @@ export default function Homescreen8() {
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/2.webm" />
             </video>
-            <p>300+ Payment Methods</p>
+            <p>300+ Payment<br></br> Methods</p>
           </div>
           <div className={style.card}>
             <video
