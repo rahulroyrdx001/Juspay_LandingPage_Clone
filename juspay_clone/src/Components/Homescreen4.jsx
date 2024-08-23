@@ -7,7 +7,8 @@ export default function Homescreen4() {
       <div className={style.innerbox}>
         <div className={style.exploreintegration}>
           <h2>
-            Take your <span style={{color: "#0E98F5"}}>business</span> <br></br>to the world
+            Take your <span style={{ color: "#0E98F5" }}>business</span>{" "}
+            <br></br>to the world
           </h2>
           <p>
             Simplify global Go-to-market with 100+ local payment<br></br>{" "}
@@ -30,7 +31,7 @@ export default function Homescreen4() {
           </div>
         </div>
         <div className={style.videoelemet}>
-          <video width={"560px"} loop={true} autoPlay={true}>
+          <video width={"560px"} loop={true} autoPlay={true} muted>
             <source src="https://juspay.io/global/sea/video/globe.webm"></source>
           </video>
         </div>
