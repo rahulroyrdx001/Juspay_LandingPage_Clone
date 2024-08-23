@@ -1,0 +1,65 @@
+.roi{
+    width: 100%;
+    height: 130vh;
+}
+.roibox{
+    width: 100%;
+    height: 120vh;
+    background: #F1F2F3;
+    border-radius: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputbox{
+    width: 45%;
+    height: 95%;
+    border-radius: 32px;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.outputbox{
+    width: 45%;
+    height: 95%;
+    border-radius: 32px;
+    background-color:#192226;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.outputbox h3{
+    color: #F1F0F0,
+}
+.roibox button{
+    width: 10%;
+    height: 8vh;
+    color: #FFFFFF;
+    border-radius: 37px;
+    background: #121316;
+}
+.resultbox{
+    width:80%;
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px;
+    /* border: #F1F0F0; */
+
+}
