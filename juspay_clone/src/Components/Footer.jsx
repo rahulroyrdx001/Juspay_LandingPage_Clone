@@ -41,6 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <div
+          id={style.footerft}
           style={{
             width: "100%",
             zIndex: "1",
@@ -65,7 +66,7 @@ export default function Footer() {
             <p>FAQ</p>
             <p>Terms of Service</p>
           </div>
-          <div style={{ width: "20%", gap: "5%", color: "#FFFF" }}>
+          <div id={style.sociallogo} style={{ width: "20%", gap: "5%", color: "#FFFF" }}>
             <BsInstagram />
             <FaLinkedinIn />
             <RiTwitterXLine />
