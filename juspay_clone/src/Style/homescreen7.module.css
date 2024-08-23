@@ -42,4 +42,5 @@
     height: 80%;
     background-color: #FDFDFD;
     border-radius: 26px;
+    overflow: hidden;
 }

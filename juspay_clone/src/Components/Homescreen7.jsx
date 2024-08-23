@@ -8,7 +8,18 @@ export default function Homescreen7() {
       <div className={style.home7box}>
         <div className={style.innerhome7box}>
           <div className={style.leftbox}></div>
-          <div className={style.righttbox}></div>
+          <div className={style.righttbox}>
+            <video
+              style={{ objectFit: "contain"}}
+              width={"100%"}
+              height={"auto"}
+              autoPlay={true}
+              loop={true}
+              muted
+            >
+              <source src="https://juspay.io/global/sea/video/analytics-1.webm"></source>
+            </video>
+          </div>
         </div>
       </div>
     </div>
