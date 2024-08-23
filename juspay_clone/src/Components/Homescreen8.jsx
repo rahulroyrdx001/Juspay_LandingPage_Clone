@@ -27,6 +27,7 @@ export default function Homescreen8() {
               width={"100%"}
               autoPlay={true}
               loop={true}
+              muted
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/1.webm" />
             </video>
@@ -38,6 +39,7 @@ export default function Homescreen8() {
               width={"100%"}
               autoPlay={true}
               loop={true}
+              muted
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/2.webm" />
             </video>
@@ -49,6 +51,7 @@ export default function Homescreen8() {
               width={"100%"}
               autoPlay={true}
               loop={true}
+              muted
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/3.webm" />
             </video>
@@ -60,6 +63,7 @@ export default function Homescreen8() {
               width={"100%"}
               autoPlay={true}
               loop={true}
+              muted
             >
               <source src="https://juspay.io/global/sea/e2e/intelligent-routing/4.webm" />
             </video>
