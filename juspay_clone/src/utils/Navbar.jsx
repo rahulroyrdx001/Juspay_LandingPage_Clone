@@ -1,11 +1,29 @@
 import React from "react";
 import style from "../Style/jpnav.module.css";
 import { MdArrowRight } from "react-icons/md";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 export default function Navbar() {
+  useGSAP(() => {
+    gsap.from(".demo", {
+      opacity: 0,
+      y: 20,
+      duration: 0.7,
+      delay: 0,
+      stagger: 0.5,
+    });
+    gsap.from("#navid", {
+      opacity: 0,
+      x: -20,
+      duration: 0.7,
+      delay: 0,
+      stagger: 0.5,
+    });
+  });
   return (
     <div className={style.mynav}>
-      <div className={style.logo}>
+      <div id="navid" className={style.logo}>
         <svg
           width="33"
           height="34"
@@ -29,10 +47,17 @@ export default function Navbar() {
         <p>JUSPAY</p>
       </div>
       <div className={style.menu}>
-        <div id={style.idd1}>About Us</div>
-        <div id={style.idd2}>Docs</div>
-        <div id={style.idd3}>Integrations</div>
+        <div id={style.idd1} className="demo">
+          About Us
+        </div>
+        <div id={style.idd2} className="demo">
+          Docs
+        </div>
+        <div id={style.idd3} className="demo">
+          Integrations
+        </div>
         <div
+          className="demo"
           style={{
             display: "flex",
             flexDirection: "row",

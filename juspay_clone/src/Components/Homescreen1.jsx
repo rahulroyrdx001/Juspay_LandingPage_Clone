@@ -1,10 +1,41 @@
 import React from "react";
 import style from "../Style/homescreen1.module.css";
 import Navbar from "../utils/Navbar";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 export default function Homescreen1() {
+  useGSAP(() => {
+    gsap.to("#cursor", {
+      rotate: 720,
+      duration: 1,
+      delay: 1,
+    });
+    gsap.from("h1,h2", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      delay: 1,
+      stagger: 0.5,
+    });
+    gsap.from("#logo p", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      delay: 1,
+      stagger: 0.5,
+    });
+    gsap.from("#btn", {
+      opacity: 0,
+      y: 20,
+      width: 10,
+      duration: 1.5,
+      delay:1,
+    });
+  });
+
   return (
-    <div className={style.home1}>
+    <div id="home1" className={style.home1}>
       <div style={{ position: "absolute" }}>
         <svg
           width="1191"
@@ -4249,9 +4280,10 @@ export default function Homescreen1() {
           </defs>
         </svg>
       </div>
+      <div id="cursor" className={style.cursor}></div>
       <div className={style.innerbox}>
         <Navbar></Navbar>
-        <div className={style.alltext}>
+        <div id="logo" className={style.alltext}>
           <div
             style={{
               width: "100%",
@@ -4275,7 +4307,7 @@ export default function Homescreen1() {
             </p>
           </div>
         </div>
-        <div className={style.btn}>
+        <div id="btn" className={style.btn}>
           <button>Schedule meeting</button>
         </div>
       </div>

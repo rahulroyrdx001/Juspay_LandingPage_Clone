@@ -17,6 +17,15 @@
     align-items: center;
     z-index: 1;
 }
+.cursor{
+    width:0.5%;
+    height: 1vh;
+    border-radius: 30%;
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 5;
+
+}
 .alltext{
     width: 90%;
     height: 70%;
