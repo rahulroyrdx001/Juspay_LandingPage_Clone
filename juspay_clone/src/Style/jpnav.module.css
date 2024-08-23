@@ -1,21 +1,40 @@
 .mynav{
-    width: Fixed (1392px)px;
-    height: 80px;
-    top: 24px;
-    left: 24px;
-    padding: 12px 24px 12px 24px;
-    gap: 0px;
+    width: 95%;
+    height: 12vh;
+    /* transform: translate(0,-300%); */
     border-radius: 61px;
     border: 1px 0px 0px 0px;
     border: 1px solid #211F1F;
-    justify: space-between;
-    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25%;
+    color: #FFFFFF;
+    opacity: 1px;
     background-color: #121316;
+    z-index: 2;
 
 }
 .logo{
+    width: 10%;
+    height: 15vh;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color :#FFFFFF;
     width: 175px;
     height: 56px;
-    gap: 7.72px;
+    gap: 10px;
+}
+
+.menu{
+    width:40% ;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
 }

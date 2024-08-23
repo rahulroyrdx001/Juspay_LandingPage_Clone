@@ -26,17 +26,22 @@ export default function Navbar() {
             fill="#0561E2"
           />
         </svg>
-        JUSPAY
+        <p>JUSPAY</p>
       </div>
       <div className={style.menu}>
-        <ul>
-          <li>About Us</li>
-          <li>Docs</li>
-          <li>Integrations</li>
-          <li>
-            Contact Us <MdArrowRight />
-          </li>
-        </ul>
+        <div>About Us</div>
+        <div>Docs</div>
+        <div>Integrations</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          Contact Us <MdArrowRight />
+        </div>
       </div>
     </div>
   );

@@ -5,8 +5,7 @@ import Navbar from "../utils/Navbar";
 export default function Homescreen1() {
   return (
     <div className={style.home1}>
-      <Navbar></Navbar>
-      <div>
+      <div style={{ position: "absolute" }}>
         <svg
           width="1191"
           height="654"
@@ -4249,6 +4248,36 @@ export default function Homescreen1() {
             </radialGradient>
           </defs>
         </svg>
+      </div>
+      <div className={style.innerbox}>
+        <Navbar></Navbar>
+        <div className={style.alltext}>
+          <div
+            style={{
+              width: "100%",
+              height: "70%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h1>Payments designed for</h1>
+            <h1>
+              <span>GLOBAL OUTCOMES</span>
+            </h1>
+          </div>
+          <div>
+            <p>
+              Juspay powers leading enterprises around the world,<br></br>{" "}
+              simplifying go-to-market, build better experiences, and <br></br>{" "}
+              never worry about regulatory nuances.
+            </p>
+          </div>
+        </div>
+        <div className={style.btn}>
+          <button>Schedule meeting</button>
+        </div>
       </div>
     </div>
   );
