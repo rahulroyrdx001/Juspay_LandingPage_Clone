@@ -81,3 +81,18 @@ h2 span{
     font-weight: 600;
     color: #BCBCBF;
 }
+.ptext{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ptext p{
+    margin: 0;
+    padding: 0;
+}

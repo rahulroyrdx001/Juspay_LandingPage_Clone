@@ -4306,12 +4306,10 @@ export default function Homescreen1() {
               <span>GLOBAL OUTCOMES</span>
             </h2>
           </div>
-          <div>
-            <p>
-              Juspay powers leading enterprises around the world,<br></br>{" "}
-              simplifying go-to-market, build better experiences, and <br></br>{" "}
-              never worry about regulatory nuances.
-            </p>
+          <div className={style.ptext}>
+            <p>Juspay powers leading enterprises around the world,</p>
+            <p>simplifying go-to-market, build better experiences, and </p>
+            <p>never worry about regulatory nuances.</p>
           </div>
         </div>
         <div id="btn" className={style.btn}>

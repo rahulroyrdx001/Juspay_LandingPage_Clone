@@ -19,7 +19,6 @@ export default function Footer() {
             alignItems: "center",
             position: "relative",
             top: "20%",
-            
           }}
         >
           <div>
@@ -44,7 +43,6 @@ export default function Footer() {
         <div
           style={{
             width: "100%",
-            
             zIndex: "1",
             display: "flex",
             justifyContent: "space-between",

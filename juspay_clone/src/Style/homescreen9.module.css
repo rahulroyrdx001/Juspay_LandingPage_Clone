@@ -27,6 +27,9 @@
     height: 86%;
     width: 23.5%;
     border-radius: 16px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.5vh;
+    font-weight: 600;
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -65,6 +68,23 @@
 #indigobox{
     background : #F5F5F5;
 }
+#indigobox p{
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.9vh;
+    font-weight: 500;
+}
+#indigobox h4{
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+#indigobox h5{
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.3vh;
+    font-weight: 500;
+    position: relative;
+    top: -10%;
+}
 #indigobox img{
     width: 25%;
     transform: translate(-60%,0);
@@ -95,4 +115,32 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.alltext{
+    width: 60%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alltext p{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.9vh;
+    font-weight: 600;
+    background: linear-gradient(180deg, #0099FF 8.6%, #188EDD 51.84%, #0561E2 103.03%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.alltext h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 5vh;
+    font-weight: 600;
+    
+
 }

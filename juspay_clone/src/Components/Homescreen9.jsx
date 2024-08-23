@@ -29,7 +29,7 @@ export default function Homescreen9() {
                 customers.
               </p>
               <h4>Mr. Neetan Chopra</h4>
-              <p>CIO, IndiGo</p>
+              <h5>CIO, IndiGo</h5>
             </div>
             <div className={style.galrybox1}>
               <img src="https://juspay.io/global/testimonials/travel-3.svg"></img>
