@@ -11,18 +11,25 @@ export default function Homescreen1() {
       duration: 1,
       delay: 1,
     });
-    gsap.from("h1,h2", {
+    gsap.from("#logo h1", {
       opacity: 0,
       y: 50,
       duration: 1,
       delay: 1,
       stagger: 0.5,
     });
-    gsap.from("#logo p", {
+    gsap.from("#logo h2", {
       opacity: 0,
       y: 50,
       duration: 1,
       delay: 1,
+      stagger: 0.8,
+    });
+    gsap.from("#logo p", {
+      opacity: 0,
+      y: 60,
+      duration: 1,
+      delay: 1.5,
       stagger: 0.5,
     });
     gsap.from("#btn", {
@@ -30,7 +37,7 @@ export default function Homescreen1() {
       y: 20,
       width: 10,
       duration: 1.5,
-      delay:1,
+      delay: 1,
     });
   });
 

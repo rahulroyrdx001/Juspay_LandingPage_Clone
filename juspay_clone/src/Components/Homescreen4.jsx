@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../Style/homescreen4.module.css";
+import CountUp from 'react-countup';
 
 export default function Homescreen4() {
   return (
@@ -7,7 +8,7 @@ export default function Homescreen4() {
       <div className={style.innerbox}>
         <div className={style.exploreintegration}>
           <h2>
-            Take your <span style={{ color: "#0E98F5" }}>business</span>{" "}
+            Take your <span>business</span>
             <br></br>to the world
           </h2>
           <p>
@@ -18,11 +19,11 @@ export default function Homescreen4() {
           </p>
           <div className={style.numbers}>
             <div className={style.box300}>
-              300+ <br />
+            <CountUp start={0} end={300} duration={6} delay={0}/>+ <br />
               <p>PSP integrations</p>
             </div>
             <div className={style.box50}>
-              50+ <br />
+            <CountUp start={0} end={50} duration={6} delay={0}/>+ <br />
               <p>Countries supported</p>
             </div>
           </div>
