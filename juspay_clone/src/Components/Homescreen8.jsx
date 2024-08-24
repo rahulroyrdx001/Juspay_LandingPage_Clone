@@ -44,7 +44,7 @@ export default function Homescreen8() {
             </video>
             <p>300+ Payment<br></br> Methods</p>
           </div>
-          <div className={style.card}>
+          <div id={style.crd4} className={style.card}>
             <video
               style={{ objectFit: "contain" }}
               width={"100%"}
@@ -56,7 +56,7 @@ export default function Homescreen8() {
             </video>
             <p>Intelligent Routing</p>
           </div>
-          <div className={style.card}>
+          <div id={style.crd4} className={style.card}>
             <video
               style={{ objectFit: "contain" }}
               width={"100%"}
