@@ -144,3 +144,97 @@
     
 
 }
+@media (min-width:300px) and (max-width: 440px){
+    .alltext p{
+        margin: 0;
+        padding: 0;
+        font-family: "Plus Jakarta Sans";
+        font-size: 1vh;
+        font-weight: 600;
+        background: linear-gradient(180deg, #0099FF 8.6%, #188EDD 51.84%, #0561E2 103.03%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    }
+    .minimenu{
+        width: 80%;
+        height: 12vh;
+        background-color: #F5F5F5;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #crd{
+        display: none;
+    }
+    .row1{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .gallary{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .galrybox1{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 70%;
+        border-radius: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #indigobox{
+        background : #F5F5F5;
+    }
+    #indigobox p{
+        font-family: "Plus Jakarta Sans";
+        font-size: 1vh;
+        font-weight: 500;
+    }
+    #indigobox h4{
+        font-family: "Plus Jakarta Sans";
+        font-size: 2vh;
+        font-weight: 600;
+    }
+    #indigobox h5{
+        font-family: "Plus Jakarta Sans";
+        font-size: 0.7vh;
+        font-weight: 500;
+        position: relative;
+        /* top: -10%; */
+    }
+    #indigobox img{
+        width: 25%;
+        transform: translate(-60%,0);
+    }
+    #indigobox img{
+        width: 20%;
+        transform: translate(-60%,0);
+    }
+    #indigobox{
+        height: 35vh;
+        background : #F5F5F5;
+    }
+    .alltext h2{
+        margin: 0;
+        padding: 0;
+        font-family: "Plus Jakarta Sans";
+        font-size: 3vh;
+        font-weight: 600;
+        
+    
+    }
+}

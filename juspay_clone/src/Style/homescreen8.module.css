@@ -164,7 +164,7 @@
     .card{
         width: 50%;
         height: 95%;
-        border-radius: 42.41px ;
+        border-radius: 15% ;
         background-color: #FFFFFF;
         overflow: hidden;
     }

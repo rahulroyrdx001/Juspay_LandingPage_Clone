@@ -31,18 +31,18 @@ export default function Homescreen9() {
               <h4>Mr. Neetan Chopra</h4>
               <h5>CIO, IndiGo</h5>
             </div>
-            <div className={style.galrybox1}>
+            <div id={style.crd} className={style.galrybox1}>
               <img src="https://juspay.io/global/testimonials/travel-3.svg"></img>
             </div>
           </div>
-          <div className={style.row2}>
+          <div id={style.crd} className={style.row2}>
             <div className={style.galrybox2}>
               <img src="https://juspay.io/global/testimonials/travel-4.svg"></img>
             </div>
-            <div className={style.galrybox2}>
+            <div id={style.crd} className={style.galrybox2}>
               <img src="https://juspay.io/global/testimonials/travel-5.svg"></img>
             </div>
-            <div className={style.galrybox2}>
+            <div id={style.crd} className={style.galrybox2}>
               <img src="https://juspay.io/global/testimonials/travel-6.svg"></img>
             </div>
           </div>
