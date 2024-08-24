@@ -20,7 +20,7 @@ export default function Homscreenroical() {
             >
               <h3>Enter details of your payment cost</h3>
             </div>
-            <Box
+            <Box className={style.intbox}
               component="form"
               sx={{
                 "& .MuiTextField-root": { m: 1, width: "55ch" },
