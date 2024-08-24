@@ -58,6 +58,7 @@ export default function Homscreenroical() {
               />
             </Box>
             <div
+              id={style.footertext}
               style={{
                 width: "80%",
                 display: "flex",
@@ -66,44 +67,68 @@ export default function Homscreenroical() {
               }}
             >
               <h4>Gross value of payments processed monthly</h4>
-              <h3>17000</h3>
+              <h3>$ 0</h3>
             </div>
           </div>
           <div className={style.outputbox}>
-            <div style={{
+            <div
+            id={style.roitittle}
+              style={{
                 width: "80%",
                 color: "#F1F0F0",
                 display: "flex",
                 justifyContent: "left",
                 flexDirection: "column",
-              }}>
+              }}
+            >
               <h3>ROI Calculator Results</h3>
             </div>
-            <div style={{ color: "#F1F0F0",width:"100%",height:"80%",display:"flex",flexDirection:"column", alignItems:"center",justifyContent:"center" }}>
+            <div
+              style={{
+                color: "#F1F0F0",
+                width: "100%",
+                height: "80%",
+                position:"relative",
+                top:"-8%",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
               <div className={style.resultbox}>
                 <h4>Saving in Transaction Processing costs</h4>
-                <p>$2500</p>
+                <p>$0</p>
               </div>
               <div className={style.resultbox}>
-                <h4>Saving in Transaction Processing costs</h4>
-                <p>$2500</p>
+                <h4>Saving in Payment Operation costs</h4>
+                <p>$0</p>
               </div>
               <div className={style.resultbox}>
-                <h4>Saving in Transaction Processing costs</h4>
-                <p>$2500</p>
+                <h4>Saving in Infrastructure & Compliance costs</h4>
+                <p>$0</p>
               </div>
               <div className={style.resultbox}>
-                <h4>Saving in Transaction Processing costs</h4>
-                <p>$2500</p>
+                <h4>Increased Payment conversion</h4>
+                <p>$0</p>
               </div>
             </div>
-            <div style={{width:"90%", color: "#F1F0F0", display:"flex",justifyContent:"space-around",alignItems:"center" }}>
+            <div
+            id={style.outputfooter}
+              style={{
+                width: "80%",
+                color: "#F1F0F0",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
               <h2>Overall ROI</h2>
-              <p>$157800</p>
+              <p>$ 0</p>
             </div>
           </div>
         </div>
-        <button>schedule a call</button>
+        <button>Schedule a call</button>
       </div>
     </div>
   );

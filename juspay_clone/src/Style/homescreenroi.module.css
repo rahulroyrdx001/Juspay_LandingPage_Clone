@@ -25,16 +25,44 @@
     height: 95%;
     border-radius: 32px;
     background-color: #FEFEFE;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.7vh;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     
 }
+.inputbox h3{
+    font-size: 3.6vh;
+    position: relative;
+    left: -5%;
+    top: 5%;
+}
+#footertext h4{
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.2vh;
+    font-weight: 400;
+    position: relative;
+    left: -5%;
+}
+#footertext h3{
+    font-family: "Plus Jakarta Sans";
+    font-size: 3.6vh;
+    font-weight: 800;
+    position: relative;
+    left: -5%;
+    top: -10%;
+}
+
 .outputbox{
     width: 45%;
     height: 95%;
     border-radius: 32px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5vh;
+    font-weight: 600;
     background-color:#192226;
     display: flex;
     flex-direction: column;
@@ -42,24 +70,55 @@
     align-items: center;
     
 }
+#roitittle h3{
+    font-family: "Plus Jakarta Sans";
+    font-size: 3.6vh;
+    font-weight: 600;
+    position: relative;
+    top: 12%;
+}
 .outputbox h3{
-    color: #F1F0F0,
+    color: #F1F2F3;
 }
 .roibox button{
     width: 10%;
     height: 8vh;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.9vh;
+    font-weight: 600;
     color: #FFFFFF;
     border-radius: 37px;
     background: #121316;
 }
+.roibox button:hover{
+    background: linear-gradient(180deg, #0099FF 8.6%, #188EDD 51.84%, #0561E2 103.03%);
+}
 .resultbox{
     width:80%;
-    height:10vh;
+    height:13vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: solid 2px;
+    border-bottom: solid 1px;
+    border-color: #2F4149;
     /* border: #F1F0F0; */
 
+}
+.resultbox h4,p{
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+#outputfooter{
+    position: relative;
+    top: -5%;
+}
+#outputfooter h2{
+    font-size: 3.6vh;
+    font-weight: 600;
+}
+#outputfooter p{
+    font-size: 3.6vh;
+    font-weight: 600;
 }
