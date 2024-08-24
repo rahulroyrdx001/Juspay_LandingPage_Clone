@@ -13,6 +13,7 @@ export default function Footer() {
       ></img>
       <div className={style.footerbg}>
         <div
+          id={style.foot}
           style={{
             display: "flex",
             justifyContent: "space-around",
@@ -66,7 +67,10 @@ export default function Footer() {
             <p>FAQ</p>
             <p>Terms of Service</p>
           </div>
-          <div id={style.sociallogo} style={{ width: "20%", gap: "5%", color: "#FFFF" }}>
+          <div
+            id={style.sociallogo}
+            style={{ width: "20%", gap: "5%", color: "#FFFF" }}
+          >
             <BsInstagram />
             <FaLinkedinIn />
             <RiTwitterXLine />
