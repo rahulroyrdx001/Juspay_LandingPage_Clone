@@ -22,3 +22,8 @@
     border-radius: 56px 52px 0 0;
 
 }
+@media (min-width:300px) and (max-width: 440px){
+    .videoelement{
+        transform: scale(1.55);
+    }
+}

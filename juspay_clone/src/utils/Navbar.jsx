@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../Style/jpnav.module.css";
 import { MdArrowRight } from "react-icons/md";
+import { MdOutlineMenu } from "react-icons/md";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -68,6 +69,9 @@ export default function Navbar() {
         >
           Contact Us <MdArrowRight />
         </div>
+      </div>
+      <div className={style.collapsmenu}>
+        <MdOutlineMenu />
       </div>
     </div>
   );

@@ -16,6 +16,9 @@
     z-index: 2;
 
 }
+.collapsmenu{
+    display: none;
+}
 .logo{
     width: 10%;
     height: 15vh;
@@ -62,4 +65,20 @@
     background: linear-gradient(180deg, #0099FF 8.6%, #188EDD 51.84%, #0561E2 103.03%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+@media (min-width:300px) and (max-width: 440px){
+    .menu{
+        display: none;
+    }
+    .collapsmenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vh;
+        width: 12%;
+        height: 60%;
+        border-radius: 50%;
+        background-color: #2D2B2B;
+    }
 }

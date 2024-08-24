@@ -43,7 +43,7 @@ export default function Homescreen1() {
 
   return (
     <div id="home1" className={style.home1}>
-      <div style={{ position: "absolute" }}>
+      <div id style={{ position: "absolute" }}>
         <svg
           width="1191"
           height="654"
