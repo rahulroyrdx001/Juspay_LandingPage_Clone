@@ -28,7 +28,7 @@ export default function Footer() {
               alt="Juspay logo"
             ></img>
           </div>
-          <div style={{ display: "flex", gap: "30%", color: "#FFFF" }}>
+          <div id={style.footm} style={{ display: "flex", gap: "30%", color: "#FFFF" }}>
             <div>
               <h4>Company</h4>
               <p>About Us</p>

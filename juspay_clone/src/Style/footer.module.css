@@ -58,4 +58,27 @@
         justify-content: space-around;
         align-items: center;
     }
+    #foot img{
+        width: 45%;
+        position: relative;
+        left: 10%;
+    }
+    .footerbg{
+        width: 90%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footm{
+        position: relative;
+        left: -5%;
+    }
+    #footerft p{
+        font-family: "Plus Jakarta Sans";
+        font-size: 1vh;
+        font-weight: 400;
+    }
 }
